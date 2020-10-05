@@ -29,6 +29,7 @@ def find_a(array)
       new_array << word
     end
     return new_array
+  end
 end
 
 def sum_array(array)
