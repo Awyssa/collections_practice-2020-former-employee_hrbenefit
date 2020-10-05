@@ -23,21 +23,9 @@ def kesha_maker(array = ["Michael", "Dwight", "Creed"])
 end
 
 def find_a(array)
-  new_array = []
-
   array.find_all do |word|
-    if word.start_with?("a")
-      new_array << word
-    end
-
-    return new_array
+    word[0] == "a"
   end
-end
-
-# def find_a(array)
-#   array.find_all do |word|
-#     word[0] == "a"
-#   end
 
 def sum_array(array)
 end
