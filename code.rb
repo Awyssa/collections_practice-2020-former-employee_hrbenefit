@@ -3,6 +3,7 @@
 def kesha_maker(array = ["Michael", "Dwight", "Creed"])
   array.each do |word|
     word[2] = $
+  end
 end
 
 kesha_maker()
