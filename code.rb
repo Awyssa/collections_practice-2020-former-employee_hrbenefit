@@ -3,7 +3,8 @@
 def sort_array_char_count(array)
   new_array = []
   array.sort do |a, b|
-    new_array << a <=> b
+    a <=> b = new_value
+    new_array << new_value
   end
   puts new_array
 end
