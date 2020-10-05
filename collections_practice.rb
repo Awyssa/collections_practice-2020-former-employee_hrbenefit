@@ -25,7 +25,7 @@ end
 def find_a(array)
   new_array = []
 
-  array.each do |word|
+  array.find_all do |word|
     if word.start_with?("a")
       new_array << word
     end
@@ -33,6 +33,11 @@ def find_a(array)
     return new_array
   end
 end
+
+# def find_a(array)
+#   array.find_all do |word|
+#     word[0] == "a"
+#   end
 
 def sum_array(array)
 end
