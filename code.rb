@@ -1,8 +1,7 @@
 
 
 def kesha_maker(array = ["Michael", "Dwight", "Creed"])
-  array.each do |word|
-    word[2] = "$"
+  puts "#{array.each {|word| word[2] = "$"}}"
   end
 end
 
