@@ -1,9 +1,11 @@
 
 
 def sort_array_char_count(array)
-  array.sort {|a, b| a <=> b}
-
-  puts array
+  new_array = []
+  array.sort do |a, b| 
+    a <=> b >> new_array
+  end
+  puts new_array
 end
 
 
