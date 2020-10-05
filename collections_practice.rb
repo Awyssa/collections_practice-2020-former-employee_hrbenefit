@@ -29,7 +29,7 @@ def find_a(array)
     if word.start_with?("a")
       new_array << word
     end
-    
+
     return new_array
   end
 end
