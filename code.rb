@@ -1,7 +1,7 @@
 
 
 def reverse_array(array)
-  array.reverse
+  puts "#{array.reverse}"
 end
 
 
