@@ -1,7 +1,7 @@
 
 
 def sort_array_char_count(array)
-  puts "#{array.sort {|a, b| a <=> b}
+  puts "#{array.sort {|a, b| a <=> b}"}
 end
 
 
