@@ -27,6 +27,8 @@ def find_a(array)
   array.map do |word|
     if word.start_with?("a")
       new_array << word
+    end
+    return new_array
 end
 
 def sum_array(array)
