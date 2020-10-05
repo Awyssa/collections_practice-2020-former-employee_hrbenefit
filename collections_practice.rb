@@ -23,7 +23,10 @@ def kesha_maker(array = ["Michael", "Dwight", "Creed"])
 end
 
 def find_a(array)
-  array.detect {|word| word.start_with?("a")}
+  new_array = []
+  array.map do |word|
+    if word.start_with?("a")
+      new_array << word
 end
 
 def sum_array(array)
